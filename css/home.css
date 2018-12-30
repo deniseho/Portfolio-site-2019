@@ -1,0 +1,51 @@
+/* 
+Home Page 
+*/
+
+.homeContent{
+    list-style: none;
+    text-align: center;
+}
+
+/* Home Header Section */
+.headerImage, .headerName,.headerPosition{
+    text-align: center;
+}
+
+.headerImage{
+    margin-bottom: 10px; 
+}
+
+.headerName{
+    margin: 0 auto;
+    width: 280px;
+    padding-left: 14px;
+}
+
+.headerPosition{
+    font-size: 28px;
+}
+
+/* Menu List */
+.homeMenuList{
+    margin-left: -40px;
+    margin-top: 44px;
+}
+
+.homeMenuList li{
+    display: inline-block;
+    padding: 10px 21px;
+}
+
+.homeMenuList li a{
+    text-decoration: none;
+    color: #596370;
+    font-size: 16px;
+}    
+
+.homeMenuList li:hover a{
+    color: #de6631;
+    border-bottom: 7px solid;
+    border-image:url(../Images/line_red.svg) 0 0 20 0 repeat; 
+    transition: 0.2s linear;
+}    

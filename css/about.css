@@ -1,0 +1,74 @@
+body{
+    color: #de6631;
+}
+
+.pageContent{
+    padding: 0;
+}
+
+.introSection{
+    background: #de6631;
+    position: fixed;
+    left: 0;
+    bottom:0;
+    top:0;
+    width: 30%;
+    text-align: center;
+    color: #FFFFF5;
+    padding-top: 100px;
+}
+
+.introSection .denisehoPhoto{
+    width: 180px; /* TODO: resize the photo width */
+}
+
+.introSection p{
+    line-height: 34px;
+    font-weight: 300;
+    padding: 15px 64px 0 64px;
+}
+
+.contentSection{
+    margin-left: 30%;
+}
+
+.contentSection table{
+    width: 100%;
+}    
+
+.contentSection h1, 
+.contentSection table{
+    padding-left: 100px;
+}
+
+.abilityIcon{
+    width: 78px;
+    display: inline-block;
+}
+
+.ablilityBlock{
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.shortDescription{
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.downloadCV{
+    text-align: center;
+    margin-top: 52px;
+}
+
+.downloadCVButton{
+    background:  #de6631;
+    border: 0;
+    border-radius: 0;
+    color: #fffff5;
+    padding: 18px 30px;
+    font-size: 20px;
+    cursor: pointer;
+}

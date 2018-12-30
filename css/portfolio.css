@@ -1,0 +1,59 @@
+body{
+    color: #de6631;
+}
+
+.listSection{
+    background: #de6631;
+    position: fixed;
+    left: 0;
+    bottom:0;
+    top:0;
+    width: 22%;
+    text-align: center;
+    color: #FFFFF5;
+    padding-top: 100px;
+}
+
+.listSection ul{
+    list-style: none;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.listSection ul li a{
+    text-decoration: none;
+    color: #FFFFF5;
+    font-weight: 300;
+    line-height: 50px;
+}
+
+.listSection ul li:hover a {
+    color: #FFFFF5;
+    border-bottom:  7px solid;
+    border-image:url(../Images/line_white.svg) 0 0 20 0 repeat; 
+    transition: 0.2s linear;
+}
+
+.contentSection{
+    margin-left: 22%;
+    padding: 0 20px;
+}
+
+.workImageBox{
+    border: 1px solid #de6631;
+    width: 350px;
+    height: 300px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+
+.workImage{
+}
+
+.workTitle{
+    border-top: 1px solid #de6631;
+    margin-top: 260px;
+    padding: 10px 0;
+    text-align: center;
+}

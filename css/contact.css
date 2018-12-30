@@ -1,0 +1,21 @@
+.pageContent{
+    margin: 200px 100px;
+}
+
+.pageContent h1{
+    color: #de6631;
+}
+
+.contactMessage{
+    width: 40%;
+    line-height: 32px;
+    font-size: 14px;
+}
+
+.contactBlock{
+    display: inline-block;
+    margin-left: 40%;
+    position: absolute;
+    top: 260px;
+    color: #de6631;
+}

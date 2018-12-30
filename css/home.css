@@ -46,6 +46,6 @@ Home Page
 .homeMenuList li:hover a{
     color: #de6631;
     border-bottom: 7px solid;
-    border-image:url(../Images/line_red.svg) 0 0 20 0 repeat; 
+    border-image:url(../images/line_red.svg) 0 0 20 0 repeat; 
     transition: 0.2s linear;
 }    

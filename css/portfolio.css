@@ -21,6 +21,11 @@ body{
     margin-left: 30px;
 }
 
+.listSection h1{
+    text-align: left;
+    margin-left: 68px;
+}
+
 .listSection ul li a{
     text-decoration: none;
     color: #FFFFF5;
@@ -28,10 +33,11 @@ body{
     line-height: 50px;
 }
 
-.listSection ul li:hover a {
+.listSection ul li:hover a,
+.listSection ul li.active a {
     color: #FFFFF5;
     border-bottom:  7px solid;
-    border-image:url(../Images/line_white.svg) 0 0 20 0 repeat; 
+    border-image:url(../images/line_white.svg) 0 0 20 0 repeat; 
     transition: 0.2s linear;
 }
 

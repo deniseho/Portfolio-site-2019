@@ -50,10 +50,12 @@ nav#NavBar{
     color: #FFFFF5;
 }
 
-#NavMenu ul li:hover a{ 
+
+#NavMenu ul li:hover a, 
+#NavMenu ul li.active a{ 
     color: #FFFFF5;
     border-bottom: 7px solid;
-    border-image:url(../Images/line_white.svg) 0 0 20 0 repeat; 
+    border-image:url(../images/line_white.svg) 0 0 20 0 repeat; 
     transition: 0.1s linear;
 }    
 

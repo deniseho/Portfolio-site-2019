@@ -1,52 +1,54 @@
-body{
-    color: #de6631;
-}
-
-.listSection{
-    background: #de6631;
+.listSection {
+    background: antiquewhite;
+    color: #596370;
     position: fixed;
     left: 0;
-    bottom:0;
-    top:0;
-    width: 22%;
+    bottom: 0;
+    top: 0;
+    width: 25%;
     text-align: center;
-    color: #FFFFF5;
     padding-top: 100px;
 }
 
-.listSection ul{
+.listSection ul {
     list-style: none;
     text-align: left;
     margin-top: 60px;
     margin-left: 30px;
 }
 
-.listSection h1{
+.listSection h1 {
     text-align: left;
     margin-left: 68px;
 }
 
-.listSection ul li a{
+.listSection ul li a {
     text-decoration: none;
-    color: #FFFFF5;
+    color: #596370;
     font-weight: 300;
     line-height: 50px;
+    opacity: 0.8;
 }
 
 .listSection ul li:hover a,
 .listSection ul li.active a {
-    color: #FFFFF5;
-    border-bottom:  7px solid;
-    border-image:url(../images/line_white.svg) 0 0 20 0 repeat; 
+    opacity: 1;
     transition: 0.2s linear;
 }
 
-.contentSection{
+.listSection ul li.active a {
+    font-weight: 400;
+    color: #596370;
+    border-bottom: 7px solid;
+    border-image: url(../images/line_indigo.svg) 0 0 20 0 repeat;
+}
+
+.contentSection {
     margin-left: 22%;
     padding: 0 20px;
 }
 
-.workImageBox{
+.workImageBox {
     border: 1px solid #de6631;
     width: 350px;
     height: 300px;
@@ -54,10 +56,7 @@ body{
     margin-bottom: 40px;
 }
 
-.workImage{
-}
-
-.workTitle{
+.workTitle {
     border-top: 1px solid #de6631;
     margin-top: 260px;
     padding: 10px 0;

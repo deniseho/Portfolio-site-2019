@@ -1,74 +1,84 @@
-body{
-    color: #de6631;
-}
-
-.pageContent{
+.pageContent {
     padding: 0;
 }
 
-.introSection{
-    background: #de6631;
+.introSection {
+    background: antiquewhite;
+    color: #596370;
     position: fixed;
     left: 0;
-    bottom:0;
-    top:0;
-    width: 30%;
+    bottom: 0;
+    top: 0;
+    width: 25%;
     text-align: center;
-    color: #FFFFF5;
     padding-top: 100px;
 }
 
-.introSection .denisehoPhoto{
+.introSection .photo {
     width: 180px; /* TODO: resize the photo width */
 }
 
-.introSection p{
-    line-height: 34px;
+.contentSection {
+    margin-left: 25%;
+    padding: 10px 100px 60px 100px;
+}
+
+.contentSection b {
+    font-weight: 400;
+}
+
+.contentSection p {
+    line-height: 26px;
     font-weight: 300;
-    padding: 15px 64px 0 64px;
 }
 
-.contentSection{
-    margin-left: 30%;
+.contentSection section {
+    padding-top: 10px;
 }
 
-.contentSection table{
+/* .contentSection table {
     width: 100%;
-}    
-
-.contentSection h1, 
-.contentSection table{
-    padding-left: 100px;
 }
 
-.abilityIcon{
+.abilityIcon {
     width: 78px;
     display: inline-block;
 }
 
-.ablilityBlock{
+.ablilityBlock {
     display: inline-block;
     margin-left: 20px;
     margin-bottom: 20px;
     margin-top: 60px;
-}
+} */
 
-.shortDescription{
+.shortDescription {
     font-size: 14px;
     margin-top: -10px;
 }
 
-.downloadCV{
+.downloadCV {
     text-align: center;
-    margin-top: 52px;
+    margin-top: 80px;
 }
 
-.downloadCVButton{
-    background:  #de6631;
+.downloadCV a {
+    background: #fffff5;
+    color: #de6631;
     border: 0;
     border-radius: 0;
-    color: #fffff5;
     padding: 18px 30px;
     font-size: 20px;
     cursor: pointer;
+    opacity: 0.8;
+    transition: linear 100ms;
+    text-decoration: none;
 }
+
+.downloadCV a:hover {
+    opacity: 1;
+}
+
+.education li {
+    margin-top: 40px;
+} 

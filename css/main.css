@@ -1,5 +1,5 @@
 /* ============== Body ============== */
-body{
+body {
     font-family: "brandon-grotesque,HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
     font-weight: 400;
     background: #FFFFF5;
@@ -7,12 +7,12 @@ body{
     letter-spacing: 1.2px;
 }
 
-h1{
+h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
 }
 
 /* ============== Navigation Bar ============== */
-nav#NavBar{
+nav#NavBar {
     position: fixed;
     top: 0;
     left: 0;
@@ -20,60 +20,57 @@ nav#NavBar{
     height: 65px;
     background: #de6631;
     z-index: 999;
-    box-shadow: rgba(0,0,0,0.5) 0 2px 8px;
+
+    /* box-shadow: rgba(109, 109, 109, 0.5) 0 2px 8px; */
 }
 
-#Logo{
+#Logo {
     position: absolute;
     margin: 20px 0 0 100px;
     width: 110px;
 }
 
-#NavMenu{
+#NavMenu {
     float: right;
     margin-right: 100px;
 }
 
-#NavMenu ul{
+#NavMenu ul {
     list-style: none;
 }
 
-#NavMenu ul li{
+#NavMenu ul li {
     display: inline-block;
     margin-top: 8px;
     margin-left: 60px;
+    transition: linear 100ms;
 }
 
-#NavMenu ul li a{
+#NavMenu ul li a {
     text-decoration: none;
     font-size: 14px;
     color: #FFFFF5;
+    opacity: 0.8;
 }
 
+#NavMenu ul li:hover a,
+#NavMenu ul li.active a {
+    opacity: 1;
+    transition: 0.1s linear;
+}
 
-#NavMenu ul li:hover a, 
-#NavMenu ul li.active a{ 
+#NavMenu ul li.active a {
     color: #FFFFF5;
     border-bottom: 7px solid;
-    border-image:url(../images/line_white.svg) 0 0 20 0 repeat; 
-    transition: 0.1s linear;
-}    
+    border-image: url(../images/line_white.svg) 0 0 20 0 repeat;
+}
 
-#NavMenu .homeIcon{
+#NavMenu .homeIcon {
     width: 18px;
 }
 
 /* ============== Page Content ============== */
-.pageContent{
+.pageContent {
     margin-top: 120px;
     padding: 0 100px;
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    text-align: center;
-    width: 100%;
-    height: 40px;
-    color: #de6631;
 }
